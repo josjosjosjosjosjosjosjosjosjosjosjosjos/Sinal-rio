@@ -45,6 +45,21 @@ class _HomeScreenState extends State<HomeScreen> {
     'Líquido',
     'Sólido',
     'Gasoso',
+    'Alumínio',
+    'Cálcio',
+    'Chumbo',
+    'Cobre',
+    'Cromo',
+    'Ferro',
+    'Hidrogênio',
+    'Hidroxila',
+    'Lítio',
+    'Magnésio',
+    'Mercúrio',
+    'Potássio',
+    'Sódio',
+    'Sulfato',
+    'Zinco',
   ];
 
   
@@ -104,7 +119,7 @@ class _Screen2State extends State<Screen2> {
     'Grau e Pistilo',
     'Termômetro',
     'Jaleco',
-    'Luvas de proteção'
+    'Luvas de proteção',
     'Óculos de segurança',
     'Lava Olhos',
   ];
@@ -493,7 +508,82 @@ class GifDialog extends StatelessWidget {
           title = 'Gasoso';
           explanation = 'Quando há maior afastamento das moléculas surge o estado gasoso (átomos dispersos).';
           break;
-       
+          case 15:
+          gifPath = 'assets/gifs/Aluminio.gif'; 
+          title = 'Alumínio';
+          explanation = 'Alumínio é o elemento com número atômico 13.';
+          break;
+          case 16:
+          gifPath = 'assets/gifs/Calcio.gif'; 
+          title = 'Cálcio';
+          explanation = 'Cálcio é o elemento com número atômico 20.';
+          break;
+          case 17:
+          gifPath = 'assets/gifs/Chumbo.gif'; 
+          title = 'Chumbo';
+          explanation = 'Chumbo é o elemento com número atômico 82.';
+          break;
+          case 18:
+          gifPath = 'assets/gifs/Cobre.gif'; 
+          title = 'Cobre';
+          explanation = 'Cobre é o elemento com número atômico 29.';
+          break;
+          case 19:
+          gifPath = 'assets/gifs/Cromo.gif'; 
+          title = 'Cromo';
+          explanation = 'Cromo é o elemento com número atômico 24.';
+          break;
+          case 20:
+          gifPath = 'assets/gifs/Ferro.gif'; 
+          title = 'Ferro';
+          explanation = 'Ferro é o elemento com número atômico 26.';
+          break;
+          case 21:
+          gifPath = 'assets/gifs/Hidrogenio.gif'; 
+          title = 'Hidrogênio';
+          explanation = 'Hidrogênio é o elemento com número atômico 1.';
+          break;
+          case 22:
+          gifPath = 'assets/gifs/Hidroxila.gif'; 
+          title = 'Hidroxila';
+          explanation = 'Hidroxila é um grupo funcional com fórmula química OH-.';
+          break;
+          case 23:
+          gifPath = 'assets/gifs/Litio.gif'; 
+          title = 'Lítio';
+          explanation = 'Lítio é o elemento com número atômico 3.';
+          break;
+          case 24:
+          gifPath = 'assets/gifs/Magnesio.gif'; 
+          title = 'Magnésio';
+          explanation = 'Magnésio é o elemento com número atômico 12.';
+          break;
+          case 25:
+          gifPath = 'assets/gifs/Mercurio.gif'; 
+          title = 'Mercúrio';
+          explanation = 'Mercúrio é o elemento com número atômico 80.';
+          break;
+          case 26:
+          gifPath = 'assets/gifs/Potassio.gif'; 
+          title = 'Potássio';
+          explanation = 'Potássio é o elemento com número atômico 19.';
+          break;
+          case 27:
+          gifPath = 'assets/gifs/Sodio.gif'; 
+          title = 'Sódio';
+          explanation = 'Sódio é o elemento com número atômico 11.';
+          break;
+          case 28:
+          gifPath = 'assets/gifs/Sulfato.gif'; 
+          title = 'Sulfato';
+          explanation = 'Sulfato é um ânion com a fórmula química SO4 2-.';
+          break;
+          case 29:
+          gifPath = 'assets/gifs/Zinco.gif'; 
+          title = 'Zinco';
+          explanation = 'Zinco é o elemento com número atômico 30.';
+          break;
+
         default:
           title = 'Título do GIF ${index + 1}';
           explanation = 'Texto explicativo para o GIF ${index + 1}';
