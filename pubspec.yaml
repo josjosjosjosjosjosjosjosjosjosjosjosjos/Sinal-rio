@@ -1,0 +1,229 @@
+name: sinalario
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Adicionando a seção de assets para suas imagens
+  assets:
+    - assets/images/Balança_analitica.png
+    - assets/images/Balança_semianalitica.png
+    - assets/images/Becker.png
+    - assets/images/Bico_de_Bunsen.png
+    - assets/images/bureta.png
+    - assets/images/Erlenmeyer.png
+    - assets/images/Espatula.png
+    - assets/images/Grau_e_Pistilo.png
+    - assets/images/Jaleco.png
+    - assets/images/Laboratorio_quimico.png
+    - assets/images/Lava_Olhos.png
+    - assets/images/Luvas_de_Proteção.png
+    - assets/images/Oculos_de_Proteção.png
+    - assets/images/Pipeta.png
+    - assets/images/Proveta.png
+    - assets/images/Termometro.png
+    
+
+    - assets/gifs/Acido.gif
+    - assets/gifs/Aluminio.gif
+    - assets/gifs/Atomos.gif
+    - assets/gifs/Balança-Analitica.gif
+    - assets/gifs/Balança-semianalitica.gif
+    - assets/gifs/Basico.gif
+    - assets/gifs/Becker.gif
+    - assets/gifs/Bico-de-Bunsen.gif
+    - assets/gifs/Bureta.gif
+    - assets/gifs/Calcio.gif
+    - assets/gifs/Carbono.gif
+    - assets/gifs/Chumbo.gif
+    - assets/gifs/Cobre.gif
+    - assets/gifs/Cromo.gif
+    - assets/gifs/Elemento_quimico.gif
+    - assets/gifs/Erlenmeyer.gif
+    - assets/gifs/Espatula.gif
+    - assets/gifs/Ferro.gif
+    - assets/gifs/Gasoso.gif
+    - assets/gifs/Grau e Pistilo.gif
+    - assets/gifs/Hidrogenio.gif
+    - assets/gifs/Hidroxila.gif
+    - assets/gifs/Ion_negativo.gif
+    - assets/gifs/Ion_positivo.gif
+    - assets/gifs/Jaleco.gif
+    - assets/gifs/Laboratorio_quimico.gif
+    - assets/gifs/Lava Olhos.gif
+    - assets/gifs/Liquido.gif
+    - assets/gifs/Litio.gif
+    - assets/gifs/Luvas.gif
+    - assets/gifs/Magnesio.gif
+    - assets/gifs/Mercurio.gif
+    - assets/gifs/Neutron.gif
+    - assets/gifs/Óculos de segurança.gif
+    - assets/gifs/Pipeta.gif
+    - assets/gifs/Potassio.gif
+    - assets/gifs/Proton.gif
+    - assets/gifs/Proveta.gif
+    - assets/gifs/Quimica_inorganica.gif
+    - assets/gifs/Quimica_organica.gif
+    - assets/gifs/Sodio.gif
+    - assets/gifs/Solido.gif
+    - assets/gifs/Sulfato.gif
+    - assets/gifs/Termometro.gif
+    - assets/gifs/Zinco.gif
+
+    
+    - assets/elements/Actinio.png
+    - assets/elements/Aluminio.png
+    - assets/elements/Americio.png
+    - assets/elements/Antimonio.png
+    - assets/elements/Argonio.png
+    - assets/elements/Arsenio.png
+    - assets/elements/Astato.png
+    - assets/elements/Bario.png
+    - assets/elements/Berilio.png
+    - assets/elements/Berquelio.png
+    - assets/elements/Bismuto.png
+    - assets/elements/Bohrio.png
+    - assets/elements/Boro.png
+    - assets/elements/Bromo.png
+    - assets/elements/Cadmio.png
+    - assets/elements/Calcio.png
+    - assets/elements/Californio.png
+    - assets/elements/Carbono.png
+    - assets/elements/Cerio.png
+    - assets/elements/Cesio.png
+    - assets/elements/Chumbo.png
+    - assets/elements/Cloro.png
+    - assets/elements/Cobalto.png
+    - assets/elements/Cobre.png
+    - assets/elements/Copernicio.png
+    - assets/elements/Criptonio.png
+    - assets/elements/Cromo.png
+    - assets/elements/Curio.png
+    - assets/elements/Darmstadtio.png
+    - assets/elements/Disprosio.png
+    - assets/elements/Dubnio.png
+    - assets/elements/Einstenio.png
+    - assets/elements/Enxofre.png
+    - assets/elements/Erbio.png
+    - assets/elements/Escandio.png
+    - assets/elements/Estanho.png
+    - assets/elements/Estroncio.png
+    - assets/elements/Europio.png
+    - assets/elements/Fermio.png
+    - assets/elements/Ferro.png
+    - assets/elements/Flerovio.png
+    - assets/elements/Fluor.png
+    - assets/elements/Fosforo.png
+    - assets/elements/Francio.png
+    - assets/elements/Gadolinio.png
+    - assets/elements/Galio.png
+    - assets/elements/Germanio.png
+    - assets/elements/Hafnio.png
+    - assets/elements/Hassio.png
+    - assets/elements/Helio.png
+    - assets/elements/Hidrogenioo.png
+    - assets/elements/Holmio.png
+    - assets/elements/Indio.png
+    - assets/elements/Iodo.png
+    - assets/elements/Iridio.png
+    - assets/elements/Iterbio.png
+    - assets/elements/Itrio.png
+    - assets/elements/Lantanio.png
+    - assets/elements/Laurencio.png
+    - assets/elements/Litioo.png
+    - assets/elements/Livermorio.png
+    - assets/elements/Lutessio.png
+    - assets/elements/Magnesio.png
+    - assets/elements/Manganes.png
+    - assets/elements/Meitnerio.png
+    - assets/elements/Mendelevio.png
+    - assets/elements/Mercurio.png
+    - assets/elements/Molibdemio.png
+    - assets/elements/Moscovio.png
+    - assets/elements/Neodimio.png
+    - assets/elements/Neonio.png
+    - assets/elements/Neptunio.png
+    - assets/elements/Nihonio.png
+    - assets/elements/Niobio.png
+    - assets/elements/Niquel.png
+    - assets/elements/Nitrogenio.png
+    - assets/elements/Nobelio.png
+    - assets/elements/Oganessonio.png
+    - assets/elements/Osmio.png
+    - assets/elements/Ouro.png
+    - assets/elements/Oxigenio.png
+    - assets/elements/Paladio.png
+    - assets/elements/Platina.png
+    - assets/elements/Plutonio.png
+    - assets/elements/Polonio.png
+    - assets/elements/Potassio.png
+    - assets/elements/Prata.png
+    - assets/elements/Preseodimio.png
+    - assets/elements/Promecio.png
+    - assets/elements/Protactinio.png
+    - assets/elements/Radio.png
+    - assets/elements/Radonio.png
+    - assets/elements/Renio.png
+    - assets/elements/Rodio.png
+    - assets/elements/Roentgenio.png
+    - assets/elements/Rubidio.png
+    - assets/elements/Rutenio.png
+    - assets/elements/Rutherfordio.png
+    - assets/elements/Samario.png
+    - assets/elements/Seaborgio.png
+    - assets/elements/Selenio.png
+    - assets/elements/Silicio.png
+    - assets/elements/Sodio.png
+    - assets/elements/Talio.png
+    - assets/elements/Tantalo.png
+    - assets/elements/Tecnesio.png
+    - assets/elements/Telurio.png
+    - assets/elements/Tenesso.png
+    - assets/elements/Terbio.png
+    - assets/elements/Titanio.png
+    - assets/elements/Torio.png
+    - assets/elements/Tulio.png
+    - assets/elements/Tungstenio.png
+    - assets/elements/Uranio.png
+    - assets/elements/Vanadio.png
+    - assets/elements/Xenonio.png
+    - assets/elements/Zinco.png
+    - assets/elements/Zirconio.png
+
+
+  fonts:
+    - family: LibraFont
+      fonts:
+        - asset: assets/fonts/libra.ttf
+
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-VariableFont_wght.ttf
+
+    - family: Dosis
+      fonts:
+        - asset: assets/fonts/Dosis-VariableFont_wght.ttf
+
+    - family: Exo
+      fonts:
+        - asset: assets/fonts/Exo-VariableFont_wght.ttf
+
+    - family: Lato
+      fonts:
+        - asset: assets/fonts/Lato-Regular.ttf
